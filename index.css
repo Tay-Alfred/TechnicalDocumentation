@@ -1,0 +1,131 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+  
+  }
+  .sidebar a:hover {
+    background-color: #00564d;
+  }
+  #navbar {
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    margin-right: auto;
+    flex: left;
+    margin-left: 0px !important;
+    box-shadow: 3px 4px 1cap 4px #b2d8d8cc;
+    overflow-x: hidden;
+  }
+  #navbar ul {
+    height: 100%;
+    padding: 0;
+    width: 300px;
+  }
+  
+  #navbar li {
+    color: white;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    padding: 16%;
+    text-align: center;
+    background-color:#363636e6
+  }
+/* text decoration */
+.example {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.underline {
+    text-decoration: underline;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.overline {
+    text-decoration: overline;
+}
+.no-decoration {
+    text-decoration: none;
+}
+/* responsive design */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.item {
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+@media (min-width: 600px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .item {
+        width: 48%;
+    }
+}
+/* flexbox */
+.container {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.item {
+    background-color: black;
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+#directoryBox{
+    overflow: hidden;
+    width: 75% !important;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    background-color: #363636e6;
+    padding: 40px;
+    box-shadow: 3px 4px 1cap 4px #b2d8d8cc;
+    border-radius: 4px;
+    text-align: center;
+    text-wrap: wrap;
+   }
+   #directoryBox p{
+     padding-bottom: 25px;
+   }
+
+   .bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+.content {
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+}
+
+.playwrite-ng-modern-text{
+  font-family: "Playwrite NG Modern", cursive !important;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+pre code{
+    color: #00897b;
+    font-size: 20px;
+    text-shadow: 0px 2px 0px black;
+}
